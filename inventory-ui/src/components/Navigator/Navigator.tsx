@@ -9,7 +9,7 @@ export const Navigator = ({ title }: NavigatorProps) => {
         <div className="flex h-8 items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">
             <a className="block text-zinc-800" href="/">
-              <span className="font-medium">{title}</span>
+              <span className="font-medium text-base">{title}</span>
             </a>
           </div>
         </div>
